@@ -1,0 +1,286 @@
+/*
+* @Author: zm
+* @Date:   2017-08-27 17:13:17
+* @Last Modified by:   zm
+* @Last Modified time: 2017-08-27 18:39:11
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height:120px;
+	background: #151515;
+}
+main{
+	width:1200px; 
+	height: auto;
+	margin: 0 auto;
+}
+.header-left{
+	width: 393px;
+	height: 100%;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+	line-height: 120px;
+	float: left;
+	font-weight: bold;
+}
+.header-right{
+	width: 509px;
+	height: 120px;
+	float: right;
+
+}
+.header-right ul{
+	width: 509px;
+	height: 120px;
+}
+.header-right ul li{
+    width: 69px;
+    padding-right: 41px;
+    color: #999;
+    float: left;
+	font-size: 17px;
+	line-height: 120px;
+}
+.header-right ul li a{
+	color: #999;
+}
+.header-right ul li a:first-of-type{
+     /* color: #FE0000; */
+}
+.header-right ul li a:hover{
+	color: #FE0000;
+}
+.header-right ul li:last-child{
+	padding-right: 0px;
+}
+.banner{
+	width: 100%;
+	height: 600px;
+}
+.banner img{
+	width: 100%;
+	height: 600px;
+}
+.forword{
+	width: 
+	height: ;
+}
+.back{
+
+}
+.news{
+	width: 100%;
+	height: 800px;
+	background: #000;
+}
+.news1{
+	height: 150px;
+	padding-top: 40px;	
+	line-height: 150px;
+	color: #fff;
+	font-size: 25px;
+}
+.news2{
+	width: 100%;
+	height: 470px;
+	padding-top: 31px;
+}
+.news21{
+	width: 210px;
+	height: 100%;
+	margin-right:11px; 
+	float: left;
+}
+.ntu{
+	width: 210px;
+	height: 390px;
+}
+.nwen{
+	width: 170px;
+	height: 40px;
+	background: #292929;
+	color:#fff;
+	padding: 20px;
+	font-size: 13px;
+	line-height: 25px;
+	text-align: center;
+}
+.nwen a{
+	color: #fff;
+}
+.nwen1 a{
+    color: #fff;
+}
+.news22{
+	width: 536px;
+	height: 501px;
+    margin-right:11px; 
+    float: left;
+}
+.news23{
+	width: 210px;
+	height: 100%;
+	
+	float: left;
+}
+.nwen1{
+	width: 496px;
+	height:131px; 
+	background: #000;
+	padding: 20px;
+}
+.nwen1 span{
+	 width: 496px;
+	 color: #fff;
+	 text-align: center;
+	 line-height: 25px;
+	 display: block;
+	 margin-bottom: 20px;
+}
+.nwen1 p{
+	color: #999;
+	font-size: 13px;
+	line-height: 25px;
+	text-align: center;
+
+}
+.ntu1{
+	width: 100%;
+	height: 300px;
+}
+.list{
+	width: 100%;
+	height: 650px;
+	padding-top: 50px;
+    background: #000;
+}
+.list1{
+	width: 100%;
+	height: 110px;
+	padding: 30px 0px;
+	border-bottom: 1px dashed #999;
+}
+.list1-tu{
+    width: 86px;
+    height: 66px;
+    background: #F2F2F2;
+    /* line-height: 86px; */
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    color: #66666F;
+}
+.list1-tu span{
+     font-size: 20px;
+     line-height: 30px;
+}
+.list1-tu p{
+	font-size: 14px;
+	text-align: center;
+	/* line-height: 30px; */
+}
+.list1-wen{
+    float: left;
+    padding-left: 30px;
+
+}
+.list1-wen span{
+	font-size: 18px;
+	color: #fff;
+	line-height: 40px;
+}
+.list1-wen span a{
+	color: #fff;
+}
+.list1-wen span a:hover{
+	color: #FE0000; 
+}
+.list1-wen p{
+	font-size: 14px;
+	color: #999;
+	line-height: 25px;
+}
+footer{
+	width: 100%;
+	height: 340px;
+	background: #2B2B2B;
+	padding-top: 52px;
+}
+
+.ft-top{
+	width: 973px;
+	height: 122px;
+	/* background: gold; */
+	margin: 0 auto;
+	border-bottom: 1px solid #3D3D3D;
+}
+.ft-left{
+	width: 260px;
+	height: 100%;
+	/* background: gray; */
+	float: left;
+	margin-right: 100px;
+}
+.ft-lefts{
+	width: 250px;
+	height: 100%;
+	/* background: gray; */
+	float: right;
+}
+.ft-left:last-child{
+	margin-right: 0px;
+}
+.ft-left1{
+	width: 70px;
+	height: 70px;
+	/* background: yellow; */
+	margin: 0 auto;
+}
+.ft-left1 img{
+	width: 70px;
+	height: 70px;
+}
+.ft-left2{
+	width: 255px;
+	height: 28px;
+	/* background: gold; */
+	font-size: 14px;
+	color: #D0EAEA;
+	margin-top: 15px;
+	text-align: center;
+}
+.ft-mid{
+	width: 500px;
+	height: 30px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.ft-mid span{
+	margin-right: 45px;
+	font-size: 16px;
+	color: #EAEAEA;
+	cursor: pointer;
+}
+.ft-mid span:last-child{
+	margin-right: 0px;
+}
+.ft-mid span a{
+	color: #fff;
+}
+.ft-bottom{
+	width: 217px;
+	height: 23px;
+	/* background: pink; */
+	margin: 0 auto;
+	font-size: 14px;
+	color: #eaeaea;
+	text-align: center;
+}
